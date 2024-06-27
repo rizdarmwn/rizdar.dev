@@ -1,12 +1,12 @@
-export const THEME_CONFIG: App.Locals['config'] = {
+export const THEME_CONFIG: App.Locals["config"] = {
   /** blog title */
-  title: "活版印字",
+  title: "Near the Deadline",
   /** your name */
-  author: "Typography",
+  author: "Rizdar",
   /** website description */
-  desc: "Rediscory the beauty of typography",
+  desc: "a blog about the journey on blockchain, cryptography, and distributed systems.",
   /** your deployed domain */
-  website: "https://astro-theme-typography.vercel.app/",
+  website: "https://rizdar.dev/",
   /** your locale */
   locale: "en-us",
   /** theme style */
@@ -15,7 +15,7 @@ export const THEME_CONFIG: App.Locals['config'] = {
   socials: [
     {
       name: "github",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://github.com/rizdarmwn",
     },
     {
       name: "rss",
@@ -23,16 +23,12 @@ export const THEME_CONFIG: App.Locals['config'] = {
     },
     {
       name: "twitter",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      href: "https://x.com/rizdarmwn",
     },
-    {
-      name: "mastodon",
-      href: "https://github.com/moeyua/astro-theme-typography",
-    }
   ],
   /** your header info */
   header: {
-    twitter: "@moeyua13",
+    twitter: "@rizdarmwn",
   },
   /** your navigation links */
   navs: [
@@ -41,12 +37,8 @@ export const THEME_CONFIG: App.Locals['config'] = {
       href: "/posts/page/1",
     },
     {
-      name: "Archive",
-      href: "/archive",
-    },
-    {
       name: "Categories",
-      href: "/categories"
+      href: "/categories",
     },
     {
       name: "About",
@@ -54,14 +46,12 @@ export const THEME_CONFIG: App.Locals['config'] = {
     },
   ],
   /** your category name mapping, which the `path` will be shown in the url */
-  category_map: [
-    { name: "胡适", path: "hu-shi" },
-  ],
+  category_map: [{ name: "胡适", path: "hu-shi" }],
   /** your comment provider */
   comments: {
     disqus: {
       // please change this to your disqus shortname
-      shortname: "typography-astro",
+      shortname: "rizdar",
     },
     // giscus: {
     //   repo: 'moeyua/astro-theme-typography',
@@ -80,6 +70,5 @@ export const THEME_CONFIG: App.Locals['config'] = {
     // twikoo: {
     //   envId: "https://twikoo-tau-flame.vercel.app",
     // }
-  }
-}
-
+  },
+};
